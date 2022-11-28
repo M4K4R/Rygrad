@@ -1,0 +1,78 @@
+.game-list {
+    background-color: #17171e;
+}
+
+.game-list .section-title {
+    color: var(--white);
+    margin-block-end: 90px;
+}
+
+.game-list .has-scrollbar {
+    gap: 0;
+}
+
+.game-list-card {
+    position: relative;
+}
+
+.game-list-card :is(.card-content, .card-content-overlay) {
+    position: absolute;
+}
+
+.game-list-card .card-content {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 35px;
+    transition: var(--transition);
+}
+
+.game-list-card .card-content-overlay {
+    inset: 0;
+    background-color: var(--marigold_75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.game-list-card .card-title {
+    margin-block-end: 5px;
+}
+
+.game-list-card .card-meta {
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.game-list-card .card-content .card-meta {
+    color: var(--platinum);
+}
+
+.game-list-card .card-content ion-icon {
+    color: var(--red-orange);
+    font-size: 14px;
+}
+
+.game-list-card .card-content-overlay .card-title {
+    color: var(--xiketic);
+}
+
+.game-list-card .card-content-overlay .span {
+    color: var(--white);
+}
+
+.game-list-card:is(:hover, :focus-within) .card-content {
+    opacity: 0;
+}
+
+.game-list-card:is(:hover, :focus-within) .card-content-overlay {
+    opacity: 1;
+}

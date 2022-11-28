@@ -1,0 +1,25 @@
+.trailer {
+    padding-block-start: 0;
+    overflow: hidden;
+}
+
+.trailer .section-title {
+    margin-block-end: 90px;
+}
+
+.trailer-banner {
+    position: relative;
+    background-color: var(--light-gray-1);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: var(--shadow-3);
+}
+
+.trailer-banner .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--silver);
+    font-size: 60px;
+}

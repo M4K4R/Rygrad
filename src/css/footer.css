@@ -1,0 +1,97 @@
+.footer {
+    color: var(--roman-silver);
+}
+
+.footer-top {
+    padding-block-end: var(--section-padding);
+}
+
+.footer-top .container {
+    display: grid;
+    gap: 50px;
+}
+
+.footer .logo {
+    margin-block-end: 35px;
+}
+
+.footer-text,
+.footer .contact-item {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.footer-text {
+    margin-block-end: 15px;
+}
+
+.contact-item:not(:last-child) {
+    margin-block-end: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-icon {
+    margin-block-start: 3px;
+    font-size: 17px;
+}
+
+.footer-list-title {
+    position: relative;
+    color: var(--silver);
+    font-family: "Bebas";
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-block-end: 20px;
+    margin-block-end: 35px;
+}
+
+.footer-list-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background-color: var(--red-orange);
+}
+
+.footer-link {
+    font-size: 1.4rem;
+    max-width: max-content;
+    transition: var(--transition);
+    padding-block: 8px;
+    font-weight: 500;
+}
+
+.footer-link:is(:hover, :focus) {
+    color: var(--light-orange);
+    transform: translateX(5px);
+}
+
+.footer .social-wrapper {
+    margin-block-end: 50px;
+}
+
+.footer .social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .social-link {
+    color: var(--white);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.logo {
+    color: var(--red-orange);
+    font-family: "NovaCut";
+    font-size: 3rem;
+    font-weight: 800;
+}

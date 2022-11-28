@@ -1,0 +1,90 @@
+.news {
+    background-color: #17171e;
+}
+
+.news .section-title {
+    color: var(--white);
+}
+
+.news .section-text {
+    color: var(--dim-gray);
+    margin-block: 50px 60px;
+}
+
+.news-list {
+    display: grid;
+    gap: 50px;
+}
+
+.news-card .card-banner {
+    margin-block-end: 30px;
+}
+
+.news-card .card-meta-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.news-card .card-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--quick-silver);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.news-card .card-meta-item ion-icon {
+    --ionicon-stroke-width: 50px;
+    color: var(--red-orange);
+}
+
+.news-card .card-meta-item a.item-text {
+    transition: var(--transition);
+}
+
+.news-card .card-meta-item a.item-text:is(:hover, :focus) {
+    color: var(--red-orange);
+}
+
+.news-card .card-title {
+    color: var(--raisin-black-1);
+    font-size: 2.2rem;
+    font-family: "Bebas";
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-block: 10px 15px;
+    transition: var(--transition);
+}
+
+.news-card .card-title:is(:hover, :focus) {
+    color: var(--light-brown);
+}
+
+.news-card .card-text {
+    color: var(--dim-gray);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    margin-block-end: 25px;
+}
+
+.news-card .card-link {
+    color: var(--raisin-black-1);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: var(--transition);
+}
+
+.news-card .card-link ion-icon,
+.news-card .card-link:is(:hover, :focus) {
+    color: var(--red-orange);
+}

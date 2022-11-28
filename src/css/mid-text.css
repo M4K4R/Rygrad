@@ -1,0 +1,6 @@
+.mid-text {
+    font-family: "OpenSansBold";
+    color: var(--white);
+    margin-block-end: 45px;
+    text-align: center;
+}

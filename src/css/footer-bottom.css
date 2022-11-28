@@ -1,0 +1,44 @@
+.footer-newsletter {
+    position: relative;
+}
+
+.footer-newsletter .email-field {
+    background-color: var(--raisin-black-4);
+    padding: 12px 20px;
+    padding-inline-end: 60px;
+    font-size: 1.4rem;
+    color: var(--white);
+}
+
+.footer-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 53px;
+    background-color: var(--red-orange);
+    color: var(--xiketic);
+    display: grid;
+    place-content: center;
+}
+
+.footer-bottom-img {
+    display: none;
+}
+
+.footer-bottom {
+    background-color: var(--eerie-black-2);
+    padding-block: 20px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.copyright-link {
+    display: inline-block;
+    color: var(--red-orange);
+}

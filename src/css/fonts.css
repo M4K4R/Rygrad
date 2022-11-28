@@ -1,0 +1,25 @@
+/* Bebas */
+
+@font-face {
+    font-family: Bebas;
+    src: url(/src/fonts/Bebas/BebasNeue-Regular.ttf);
+}
+
+/* NovaCut */
+
+@font-face {
+    font-family: NovaCut;
+    src: url(/src/fonts/NovaCut/NovaCut-Regular.ttf);
+}
+
+/* OpenSans */
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(/src/fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(/src/fonts/OpenSans/OpenSans-Regular.ttf);
+}

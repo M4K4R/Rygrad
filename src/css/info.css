@@ -1,0 +1,39 @@
+.info {
+    --section-padding: 60px;
+    margin-block-start: 84px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.info-subtitle {
+    font-family: "OpenSansBold";
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.info-title {
+    font-family: "OpenSansBold";
+    margin-block: 15px 12px;
+    text-align: center;
+}
+
+.info-text {
+    font-family: "OpenSansBold";
+    color: var(--dim-gray);
+    margin-block-end: 45px;
+    text-align: center;
+}
+
+.span-rygrad {
+    font-family: "NovaCut";
+    display: inline-block;
+    color: var(--red-orange);
+}
